@@ -11,7 +11,7 @@ import {
 } from './styles';
 import TextComponent from '../TextComponent';
 import {theme} from '../../theme';
-import useImageModalStore from '../../hooks/useImageModalStore';
+import useImageModalStore from '../../state/useImageModalStore';
 
 const ItemComponent = ({item}) => {
   const navigation = useNavigation();
